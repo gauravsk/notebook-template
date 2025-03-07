@@ -1,0 +1,13 @@
+---
+title: "Your Title"
+author: "Your Name"
+date: "Report Last Run: `r Sys.time()`"
+---
+
+## Meeting goals
+
+## Attendees
+
+## Things to think about
+
+## Action items

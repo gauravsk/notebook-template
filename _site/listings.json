@@ -1,0 +1,19 @@
+[
+  {
+    "listing": "/projects/project-1/index.html",
+    "items": [
+      "/projects/project-1/meeting-030625-discuss-todos.html",
+      "/projects/project-1/meeting-notes/meeting-on-2025-03-02.html",
+      "/projects/project-1/reading-1.html",
+      "/projects/project-1/idea-1.html",
+      "/weekly-notes/week-of-6mar2025.html"
+    ]
+  },
+  {
+    "listing": "/weekly-notes/index.html",
+    "items": [
+      "/weekly-notes/week-of-6mar2025.html",
+      "/weekly-notes/week-of-2025-03-02.html"
+    ]
+  }
+]

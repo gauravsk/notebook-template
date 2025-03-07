@@ -1,0 +1,11 @@
+---
+title: "About"
+---
+
+This site is created as a Quarto Website. Some of the inspiration comes from the following sources:
+
+... 
+
+```{r}
+1 + 1
+```

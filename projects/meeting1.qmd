@@ -1,0 +1,12 @@
+---
+title: "meeting1"
+format: html
+date: 6 March 2025
+description: Meeting with Anna about iButtons
+location: zoom
+attendees: Gaurav Kandlikar, Anna Sanchez
+---
+
+Stuff from meeting 1
+
+date, title, description, attendees, location

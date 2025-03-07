@@ -1,0 +1,77 @@
+{
+  "about.qmd": {
+    "about.html": "832d8516"
+  },
+  "index.qmd": {
+    "index.html": "6f05de87"
+  },
+  "week-of-12123.qmd": {
+    "week-of-12123.html": "36c8371e"
+  },
+  "spring-2025/week-of--today.qmd": {
+    "week-of--today.html": "fbff7a85"
+  },
+  "meetings/index.qmd": {
+    "index.html": "47cc337c"
+  },
+  "meetings/meeting1.qmd": {
+    "meeting1.html": "f7f55cbc"
+  },
+  "weekly-notes/index.qmd": {
+    "index.html": "2d1f813d"
+  },
+  "weekly-notes/week-of-6mar2025.qmd": {
+    "week-of-6mar2025.html": "3effabcb"
+  },
+  "meetings/meeting2.qmd": {
+    "meeting2.html": "6e3758be"
+  },
+  "meetings/sculptors/meeting2.qmd": {
+    "meeting2.html": "8b845801"
+  },
+  "weekly-notes.qmd": {
+    "weekly-notes.html": "8de26430"
+  },
+  "projects/sculptors/meeting2.qmd": {
+    "meeting2.html": "687a10ca"
+  },
+  "projects/meeting1.qmd": {
+    "meeting1.html": "f72ab33f"
+  },
+  "meetings.qmd": {
+    "meetings.html": "984c5aa7"
+  },
+  "projects/sculptors/something-notes-something.qmd": {
+    "something-notes-something.html": "340d6d10"
+  },
+  "projects/project-1/idea-1.qmd": {
+    "idea-1.html": "05ea4b03"
+  },
+  "projects/project-1/meeting-030625-xx.qmd": {
+    "meeting-030625-xx.html": "e6592a8a"
+  },
+  "project-1.qmd": {
+    "project-1.html": "e54ee4c2"
+  },
+  "projects/project-1/reading-1.qmd": {
+    "reading-1.html": "9b8e6fdb"
+  },
+  "projects/project-1/index.qmd": {
+    "index.html": "f23eec2b"
+  },
+  "projects/project-1/meeting-030625-discuss-todos.qmd": {
+    "meeting-030625-discuss-todos.html": "df187443"
+  },
+  "weekly-notes/week-of-2025-03-02.qmd": {
+    "week-of-2025-03-02.html": "f02e2394"
+  },
+  "weekly-notes/test.qmd": {
+    "test.html": "6f8d8d30"
+  },
+  "meeting-notes/meeting-on-2025-03-02.qmd": {
+    "meeting-on-2025-03-02.html": "a6a75c77"
+  },
+  "projects/project-1/meeting-notes/meeting-on-2025-03-02.qmd": {
+    "meeting-on-2025-03-02.html": "f6b09928"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "listingMap": {
+    "weekly-notes/index.qmd": [
+      "week-of-*.qmd"
+    ],
+    "projects/project-1/index.qmd": [
+      "meeting*.qmd",
+      "reading*.qmd",
+      "idea*.qmd",
+      "../../weekly-notes/*.qmd"
+    ]
+  }
+}

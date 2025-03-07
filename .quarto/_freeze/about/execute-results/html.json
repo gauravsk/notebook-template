@@ -1,0 +1,15 @@
+{
+  "hash": "13b05ce2b81cc9827b2b740b90642e56",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"About\"\n---\n\n\n\n\nThis site is created as a Quarto Website. Some of the inspiration comes from the following sources:\n\n... \n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

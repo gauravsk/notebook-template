@@ -1,0 +1,8 @@
+---
+title: "Tidy Data"
+format: html
+year: 2014
+author: Hadley Wickham
+---
+
+Here's some thoughts about the paper

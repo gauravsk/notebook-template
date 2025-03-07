@@ -1,0 +1,233 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Lab notebook template",
+    "section": "",
+    "text": "This lab notebook template was designed for the Digital Lab Notebooks crash course for my 2025 Reproducible Research course."
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "Lab notebook template",
+    "section": "Usage",
+    "text": "Usage\nStuff and more stuff"
+  },
+  {
+    "objectID": "projects/project-1/meeting-030625-discuss-todos.html",
+    "href": "projects/project-1/meeting-030625-discuss-todos.html",
+    "title": "Meeting to discuss to-dos",
+    "section": "",
+    "text": "Here are some notes from the meeting. This can also include code if desired:\nplot(1:10)"
+  },
+  {
+    "objectID": "projects/project-1/meeting-030625-discuss-todos.html#action-items",
+    "href": "projects/project-1/meeting-030625-discuss-todos.html#action-items",
+    "title": "Meeting to discuss to-dos",
+    "section": "Action items",
+    "text": "Action items\nWe can also add to-dos as follows:\n\nComplete action 1 (#Gaurav)"
+  },
+  {
+    "objectID": "projects/project-1/index.html",
+    "href": "projects/project-1/index.html",
+    "title": "Project 1",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\n\n\n\n\nMar 8, 2025\n\n\nNotes about experiment design\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/project-1/index.html#concept-notes-and-other-ideas",
+    "href": "projects/project-1/index.html#concept-notes-and-other-ideas",
+    "title": "Project 1",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\n\n\n\n\nMar 8, 2025\n\n\nNotes about experiment design\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/project-1/index.html#reading-notes",
+    "href": "projects/project-1/index.html#reading-notes",
+    "title": "Project 1",
+    "section": "Reading notes",
+    "text": "Reading notes\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nyear\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2014\n\n\nTidy Data\n\n\nHadley Wickham\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/project-1/index.html#meeting-notes",
+    "href": "projects/project-1/index.html#meeting-notes",
+    "title": "Project 1",
+    "section": "Meeting notes",
+    "text": "Meeting notes\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nattendees\n\n\n\n\n\n\nMar 9, 2025\n\n\nMeeting to discuss to-dos\n\n\nPerson 1, Person 2\n\n\n\n\nInvalid Date\n\n\nYour Title\n\n\n \n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/project-1/index.html#weeks-in-which-i-worked-on-this-project",
+    "href": "projects/project-1/index.html#weeks-in-which-i-worked-on-this-project",
+    "title": "Project 1",
+    "section": "Weeks in which I worked on this project",
+    "text": "Weeks in which I worked on this project\n\n\n\n\n\nTitle\n\n\nkeywords\n\n\n\n\n\n\nWeek of 3 March 2025\n\n\nProject 1, Project 2, Teaching\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/project-1/meeting-notes/meeting-on-2025-03-02.html#attendees",
+    "href": "projects/project-1/meeting-notes/meeting-on-2025-03-02.html#attendees",
+    "title": "Your Title",
+    "section": "Attendees",
+    "text": "Attendees"
+  },
+  {
+    "objectID": "projects/project-1/meeting-notes/meeting-on-2025-03-02.html#things-to-think-about",
+    "href": "projects/project-1/meeting-notes/meeting-on-2025-03-02.html#things-to-think-about",
+    "title": "Your Title",
+    "section": "Things to think about",
+    "text": "Things to think about"
+  },
+  {
+    "objectID": "projects/project-1/meeting-notes/meeting-on-2025-03-02.html#action-items",
+    "href": "projects/project-1/meeting-notes/meeting-on-2025-03-02.html#action-items",
+    "title": "Your Title",
+    "section": "Action items",
+    "text": "Action items"
+  },
+  {
+    "objectID": "meeting-notes/meeting-on-2025-03-02.html#attendees",
+    "href": "meeting-notes/meeting-on-2025-03-02.html#attendees",
+    "title": "Your Title",
+    "section": "Attendees",
+    "text": "Attendees"
+  },
+  {
+    "objectID": "meeting-notes/meeting-on-2025-03-02.html#things-to-think-about",
+    "href": "meeting-notes/meeting-on-2025-03-02.html#things-to-think-about",
+    "title": "Your Title",
+    "section": "Things to think about",
+    "text": "Things to think about"
+  },
+  {
+    "objectID": "meeting-notes/meeting-on-2025-03-02.html#action-items",
+    "href": "meeting-notes/meeting-on-2025-03-02.html#action-items",
+    "title": "Your Title",
+    "section": "Action items",
+    "text": "Action items"
+  },
+  {
+    "objectID": "weekly-notes/week-of-2025-03-02.html#monday",
+    "href": "weekly-notes/week-of-2025-03-02.html#monday",
+    "title": "Your Title",
+    "section": "Monday",
+    "text": "Monday"
+  },
+  {
+    "objectID": "weekly-notes/week-of-2025-03-02.html#tuesday",
+    "href": "weekly-notes/week-of-2025-03-02.html#tuesday",
+    "title": "Your Title",
+    "section": "Tuesday",
+    "text": "Tuesday"
+  },
+  {
+    "objectID": "weekly-notes/week-of-2025-03-02.html#wednesday",
+    "href": "weekly-notes/week-of-2025-03-02.html#wednesday",
+    "title": "Your Title",
+    "section": "Wednesday",
+    "text": "Wednesday"
+  },
+  {
+    "objectID": "weekly-notes/week-of-2025-03-02.html#thursday",
+    "href": "weekly-notes/week-of-2025-03-02.html#thursday",
+    "title": "Your Title",
+    "section": "Thursday",
+    "text": "Thursday"
+  },
+  {
+    "objectID": "weekly-notes/week-of-2025-03-02.html#friday",
+    "href": "weekly-notes/week-of-2025-03-02.html#friday",
+    "title": "Your Title",
+    "section": "Friday",
+    "text": "Friday"
+  },
+  {
+    "objectID": "weekly-notes/index.html",
+    "href": "weekly-notes/index.html",
+    "title": "Weekly notes",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nkeywords\n\n\n\n\n\n\nMar 6, 2025\n\n\nWeek of 3 March 2025\n\n\nProject 1, Project 2, Teaching\n\n\n\n\nInvalid Date\n\n\nYour Title\n\n\n \n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "weekly-notes/week-of-6mar2025.html",
+    "href": "weekly-notes/week-of-6mar2025.html",
+    "title": "Week of 3 March 2025",
+    "section": "",
+    "text": "Here’s what I did"
+  },
+  {
+    "objectID": "weekly-notes/week-of-6mar2025.html#monday",
+    "href": "weekly-notes/week-of-6mar2025.html#monday",
+    "title": "Week of 3 March 2025",
+    "section": "",
+    "text": "Here’s what I did"
+  },
+  {
+    "objectID": "weekly-notes/week-of-6mar2025.html#tuesday",
+    "href": "weekly-notes/week-of-6mar2025.html#tuesday",
+    "title": "Week of 3 March 2025",
+    "section": "Tuesday",
+    "text": "Tuesday\nHere’s what I didn’t do\n\nCode I wrote\nI was in this meeting\n\n1+2+3\n\n[1] 6\n\n\n\n\nCommits I made on git\nEtc."
+  },
+  {
+    "objectID": "weekly-notes/test.html#monday",
+    "href": "weekly-notes/test.html#monday",
+    "title": "Your Title",
+    "section": "Monday",
+    "text": "Monday"
+  },
+  {
+    "objectID": "weekly-notes/test.html#tuesday",
+    "href": "weekly-notes/test.html#tuesday",
+    "title": "Your Title",
+    "section": "Tuesday",
+    "text": "Tuesday"
+  },
+  {
+    "objectID": "weekly-notes/test.html#wednesday",
+    "href": "weekly-notes/test.html#wednesday",
+    "title": "Your Title",
+    "section": "Wednesday",
+    "text": "Wednesday"
+  },
+  {
+    "objectID": "weekly-notes/test.html#thursday",
+    "href": "weekly-notes/test.html#thursday",
+    "title": "Your Title",
+    "section": "Thursday",
+    "text": "Thursday"
+  },
+  {
+    "objectID": "weekly-notes/test.html#friday",
+    "href": "weekly-notes/test.html#friday",
+    "title": "Your Title",
+    "section": "Friday",
+    "text": "Friday"
+  },
+  {
+    "objectID": "projects/meeting1.html",
+    "href": "projects/meeting1.html",
+    "title": "meeting1",
+    "section": "",
+    "text": "Stuff from meeting 1\ndate, title, description, attendees, location"
+  },
+  {
+    "objectID": "projects/project-1/idea-1.html",
+    "href": "projects/project-1/idea-1.html",
+    "title": "Notes about experiment design",
+    "section": "",
+    "text": "Here’s some thoughts"
+  },
+  {
+    "objectID": "projects/project-1/reading-1.html",
+    "href": "projects/project-1/reading-1.html",
+    "title": "Tidy Data",
+    "section": "",
+    "text": "Here’s some thoughts about the paper"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This site is created as a Quarto Website. Some of the inspiration comes from the following sources:\n…\n\n1 + 1\n\n[1] 2"
+  }
+]

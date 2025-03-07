@@ -1,0 +1,10 @@
+---
+title: "Weekly notes"
+format: html
+listing:
+  contents:
+    - "week-of-*.qmd"
+  type: table
+  fields: [date,title, keywords]
+---
+

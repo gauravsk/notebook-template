@@ -1,0 +1,15 @@
+{
+  "hash": "505b01577fa58883971a3ec0ed75aee5",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Week of 3 March 2025\"\nformat: html\ndate: 6 March 2025\nkeywords: \"Project 1, Project 2, Teaching\"\nauthor: \"Gaurav Kandlikar\"\n---\n\n\n\n\n## Monday\n\nHere's what I did\n\n## Tuesday\n\nHere's what I didn't do\n\n### Code I wrote \n\nI was in [this meeting](/projects/project-1/meeting-030625-discuss-todos.qmd)\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1+2+3\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 6\n```\n\n\n:::\n:::\n\n\n\n\n### Commits I made on git\n\nEtc. ",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
