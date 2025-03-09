@@ -3,8 +3,9 @@ title: "Weekly notes"
 format: html
 listing:
   contents:
-    - "week-of-*.qmd"
+    - "*.qmd"
   type: table
   fields: [date,title, keywords]
+  filter-ui: [date, title, keywords]
 ---
 

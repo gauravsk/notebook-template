@@ -10,17 +10,15 @@ website:
     left:
       - about.qmd
       - weekly-notes/index.qmd
-      - projects/project-1/index.qmd
+      - reading-notes/index.qmd
+      - text: "Projects"
+        menu: 
+        - projects/project-1/index.qmd
     sidebar:
       contents: auto
-
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
     linkcolor: "#4A7862"
-    
-
-
-

@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "reading-notes/index.html",
+    "href": "reading-notes/index.html",
+    "title": "Reading notes",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nAuthor\n\n\nyear\n\n\nkeywords\n\n\n\n\n\n\npapername-2020\n\n\nPaper Author\n\n\n2020\n\n\nproject-1\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Lab notebook template",
@@ -14,214 +21,158 @@
     "text": "Usage\nStuff and more stuff"
   },
   {
-    "objectID": "projects/project-1/meeting-030625-discuss-todos.html",
-    "href": "projects/project-1/meeting-030625-discuss-todos.html",
-    "title": "Meeting to discuss to-dos",
-    "section": "",
-    "text": "Here are some notes from the meeting. This can also include code if desired:\nplot(1:10)"
-  },
-  {
-    "objectID": "projects/project-1/meeting-030625-discuss-todos.html#action-items",
-    "href": "projects/project-1/meeting-030625-discuss-todos.html#action-items",
-    "title": "Meeting to discuss to-dos",
-    "section": "Action items",
-    "text": "Action items\nWe can also add to-dos as follows:\n\nComplete action 1 (#Gaurav)"
-  },
-  {
     "objectID": "projects/project-1/index.html",
     "href": "projects/project-1/index.html",
-    "title": "Project 1",
+    "title": "project-1",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\n\n\n\n\nMar 8, 2025\n\n\nNotes about experiment design\n\n\n\n\n\nNo matching items"
+    "text": "Vestibulum ultrices, tortor at mattis porta, odio nisi rutrum nulla, sit amet tincidunt eros quam facilisis tellus. Fusce eleifend lectus in elementum lacinia. Nam auctor nunc in massa ullamcorper, sit amet auctor ante accumsan. Nam ut varius metus. Curabitur eget tristique leo. Cras finibus euismod erat eget elementum. Integer vel placerat ex. Ut id eros quis lectus lacinia venenatis hendrerit vel ante."
+  },
+  {
+    "objectID": "projects/project-1/index.html#about-this-project",
+    "href": "projects/project-1/index.html#about-this-project",
+    "title": "project-1",
+    "section": "",
+    "text": "Vestibulum ultrices, tortor at mattis porta, odio nisi rutrum nulla, sit amet tincidunt eros quam facilisis tellus. Fusce eleifend lectus in elementum lacinia. Nam auctor nunc in massa ullamcorper, sit amet auctor ante accumsan. Nam ut varius metus. Curabitur eget tristique leo. Cras finibus euismod erat eget elementum. Integer vel placerat ex. Ut id eros quis lectus lacinia venenatis hendrerit vel ante."
   },
   {
     "objectID": "projects/project-1/index.html#concept-notes-and-other-ideas",
     "href": "projects/project-1/index.html#concept-notes-and-other-ideas",
-    "title": "Project 1",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\n\n\n\n\nMar 8, 2025\n\n\nNotes about experiment design\n\n\n\n\n\nNo matching items"
+    "title": "project-1",
+    "section": "Concept notes and other ideas",
+    "text": "Concept notes and other ideas\n\n\n\n\n\nDate\n\n\nTitle\n\n\n\n\n\n\nMar 8, 2025\n\n\nproject-1 idea note 1\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/project-1/index.html#reading-notes",
     "href": "projects/project-1/index.html#reading-notes",
-    "title": "Project 1",
+    "title": "project-1",
     "section": "Reading notes",
-    "text": "Reading notes\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nyear\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2014\n\n\nTidy Data\n\n\nHadley Wickham\n\n\n\n\n\nNo matching items"
+    "text": "Reading notes\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nyear\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2020\n\n\npapername-2020\n\n\nPaper Author\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/project-1/index.html#meeting-notes",
     "href": "projects/project-1/index.html#meeting-notes",
-    "title": "Project 1",
+    "title": "project-1",
     "section": "Meeting notes",
-    "text": "Meeting notes\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nattendees\n\n\n\n\n\n\nMar 9, 2025\n\n\nMeeting to discuss to-dos\n\n\nPerson 1, Person 2\n\n\n\n\nInvalid Date\n\n\nYour Title\n\n\n \n\n\n\n\n\nNo matching items"
+    "text": "Meeting notes\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nattendees\n\n\n\n\n\n\nMar 8, 2025\n\n\nMeeting Title\n\n\nPerson 1, Person 2\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/project-1/index.html#weeks-in-which-i-worked-on-this-project",
     "href": "projects/project-1/index.html#weeks-in-which-i-worked-on-this-project",
-    "title": "Project 1",
+    "title": "project-1",
     "section": "Weeks in which I worked on this project",
-    "text": "Weeks in which I worked on this project\n\n\n\n\n\nTitle\n\n\nkeywords\n\n\n\n\n\n\nWeek of 3 March 2025\n\n\nProject 1, Project 2, Teaching\n\n\n\n\n\nNo matching items"
+    "text": "Weeks in which I worked on this project\n\n\n\n\n\nTitle\n\n\nkeywords\n\n\n\n\n\n\nWeek of 2025-03-03\n\n\nproject-1, project-2\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects/project-1/meeting-notes/meeting-on-2025-03-02.html#attendees",
-    "href": "projects/project-1/meeting-notes/meeting-on-2025-03-02.html#attendees",
-    "title": "Your Title",
-    "section": "Attendees",
-    "text": "Attendees"
+    "objectID": "projects/project-1/meeting-notes/meeting1.html",
+    "href": "projects/project-1/meeting-notes/meeting1.html",
+    "title": "Meeting Title",
+    "section": "",
+    "text": "Nullam dapibus cursus dolor sit amet consequat. Nulla facilisi. Curabitur vel nulla non magna lacinia tincidunt. Duis porttitor quam leo, et blandit velit efficitur ut. Etiam auctor tincidunt porttitor. Phasellus sed accumsan mi. Fusce ut erat dui. Suspendisse eu augue eget turpis condimentum finibus eu non lorem. Donec finibus eros eu ante condimentum, sed pharetra sapien sagittis. Phasellus non dolor ac ante mollis auctor nec et sapien. Pellentesque vulputate at nisi eu tincidunt. Vestibulum at dolor aliquam, hendrerit purus eu, eleifend massa. Morbi consectetur eros id tincidunt gravida. Fusce ut enim quis orci hendrerit lacinia sed vitae enim."
   },
   {
-    "objectID": "projects/project-1/meeting-notes/meeting-on-2025-03-02.html#things-to-think-about",
-    "href": "projects/project-1/meeting-notes/meeting-on-2025-03-02.html#things-to-think-about",
-    "title": "Your Title",
+    "objectID": "projects/project-1/meeting-notes/meeting1.html#meeting-goals",
+    "href": "projects/project-1/meeting-notes/meeting1.html#meeting-goals",
+    "title": "Meeting Title",
+    "section": "",
+    "text": "Nullam dapibus cursus dolor sit amet consequat. Nulla facilisi. Curabitur vel nulla non magna lacinia tincidunt. Duis porttitor quam leo, et blandit velit efficitur ut. Etiam auctor tincidunt porttitor. Phasellus sed accumsan mi. Fusce ut erat dui. Suspendisse eu augue eget turpis condimentum finibus eu non lorem. Donec finibus eros eu ante condimentum, sed pharetra sapien sagittis. Phasellus non dolor ac ante mollis auctor nec et sapien. Pellentesque vulputate at nisi eu tincidunt. Vestibulum at dolor aliquam, hendrerit purus eu, eleifend massa. Morbi consectetur eros id tincidunt gravida. Fusce ut enim quis orci hendrerit lacinia sed vitae enim."
+  },
+  {
+    "objectID": "projects/project-1/meeting-notes/meeting1.html#things-to-think-about",
+    "href": "projects/project-1/meeting-notes/meeting1.html#things-to-think-about",
+    "title": "Meeting Title",
     "section": "Things to think about",
-    "text": "Things to think about"
+    "text": "Things to think about\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
   },
   {
-    "objectID": "projects/project-1/meeting-notes/meeting-on-2025-03-02.html#action-items",
-    "href": "projects/project-1/meeting-notes/meeting-on-2025-03-02.html#action-items",
-    "title": "Your Title",
+    "objectID": "projects/project-1/meeting-notes/meeting1.html#action-items",
+    "href": "projects/project-1/meeting-notes/meeting1.html#action-items",
+    "title": "Meeting Title",
     "section": "Action items",
-    "text": "Action items"
-  },
-  {
-    "objectID": "meeting-notes/meeting-on-2025-03-02.html#attendees",
-    "href": "meeting-notes/meeting-on-2025-03-02.html#attendees",
-    "title": "Your Title",
-    "section": "Attendees",
-    "text": "Attendees"
-  },
-  {
-    "objectID": "meeting-notes/meeting-on-2025-03-02.html#things-to-think-about",
-    "href": "meeting-notes/meeting-on-2025-03-02.html#things-to-think-about",
-    "title": "Your Title",
-    "section": "Things to think about",
-    "text": "Things to think about"
-  },
-  {
-    "objectID": "meeting-notes/meeting-on-2025-03-02.html#action-items",
-    "href": "meeting-notes/meeting-on-2025-03-02.html#action-items",
-    "title": "Your Title",
-    "section": "Action items",
-    "text": "Action items"
-  },
-  {
-    "objectID": "weekly-notes/week-of-2025-03-02.html#monday",
-    "href": "weekly-notes/week-of-2025-03-02.html#monday",
-    "title": "Your Title",
-    "section": "Monday",
-    "text": "Monday"
-  },
-  {
-    "objectID": "weekly-notes/week-of-2025-03-02.html#tuesday",
-    "href": "weekly-notes/week-of-2025-03-02.html#tuesday",
-    "title": "Your Title",
-    "section": "Tuesday",
-    "text": "Tuesday"
-  },
-  {
-    "objectID": "weekly-notes/week-of-2025-03-02.html#wednesday",
-    "href": "weekly-notes/week-of-2025-03-02.html#wednesday",
-    "title": "Your Title",
-    "section": "Wednesday",
-    "text": "Wednesday"
-  },
-  {
-    "objectID": "weekly-notes/week-of-2025-03-02.html#thursday",
-    "href": "weekly-notes/week-of-2025-03-02.html#thursday",
-    "title": "Your Title",
-    "section": "Thursday",
-    "text": "Thursday"
-  },
-  {
-    "objectID": "weekly-notes/week-of-2025-03-02.html#friday",
-    "href": "weekly-notes/week-of-2025-03-02.html#friday",
-    "title": "Your Title",
-    "section": "Friday",
-    "text": "Friday"
+    "text": "Action items\n\nTask 1\nTask 2"
   },
   {
     "objectID": "weekly-notes/index.html",
     "href": "weekly-notes/index.html",
     "title": "Weekly notes",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nkeywords\n\n\n\n\n\n\nMar 6, 2025\n\n\nWeek of 3 March 2025\n\n\nProject 1, Project 2, Teaching\n\n\n\n\nInvalid Date\n\n\nYour Title\n\n\n \n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nkeywords\n\n\n\n\n\n\nMar 3, 2025\n\n\nWeek of 2025-03-03\n\n\nproject-1, project-2\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "weekly-notes/week-of-6mar2025.html",
-    "href": "weekly-notes/week-of-6mar2025.html",
-    "title": "Week of 3 March 2025",
-    "section": "",
-    "text": "Here’s what I did"
-  },
-  {
-    "objectID": "weekly-notes/week-of-6mar2025.html#monday",
-    "href": "weekly-notes/week-of-6mar2025.html#monday",
-    "title": "Week of 3 March 2025",
-    "section": "",
-    "text": "Here’s what I did"
-  },
-  {
-    "objectID": "weekly-notes/week-of-6mar2025.html#tuesday",
-    "href": "weekly-notes/week-of-6mar2025.html#tuesday",
-    "title": "Week of 3 March 2025",
-    "section": "Tuesday",
-    "text": "Tuesday\nHere’s what I didn’t do\n\nCode I wrote\nI was in this meeting\n\n1+2+3\n\n[1] 6\n\n\n\n\nCommits I made on git\nEtc."
-  },
-  {
-    "objectID": "weekly-notes/test.html#monday",
-    "href": "weekly-notes/test.html#monday",
-    "title": "Your Title",
+    "objectID": "weekly-notes/week-of-2025-03-03.html#monday",
+    "href": "weekly-notes/week-of-2025-03-03.html#monday",
+    "title": "Week of 2025-03-03",
     "section": "Monday",
     "text": "Monday"
   },
   {
-    "objectID": "weekly-notes/test.html#tuesday",
-    "href": "weekly-notes/test.html#tuesday",
-    "title": "Your Title",
+    "objectID": "weekly-notes/week-of-2025-03-03.html#tuesday",
+    "href": "weekly-notes/week-of-2025-03-03.html#tuesday",
+    "title": "Week of 2025-03-03",
     "section": "Tuesday",
     "text": "Tuesday"
   },
   {
-    "objectID": "weekly-notes/test.html#wednesday",
-    "href": "weekly-notes/test.html#wednesday",
-    "title": "Your Title",
+    "objectID": "weekly-notes/week-of-2025-03-03.html#wednesday",
+    "href": "weekly-notes/week-of-2025-03-03.html#wednesday",
+    "title": "Week of 2025-03-03",
     "section": "Wednesday",
     "text": "Wednesday"
   },
   {
-    "objectID": "weekly-notes/test.html#thursday",
-    "href": "weekly-notes/test.html#thursday",
-    "title": "Your Title",
+    "objectID": "weekly-notes/week-of-2025-03-03.html#thursday",
+    "href": "weekly-notes/week-of-2025-03-03.html#thursday",
+    "title": "Week of 2025-03-03",
     "section": "Thursday",
     "text": "Thursday"
   },
   {
-    "objectID": "weekly-notes/test.html#friday",
-    "href": "weekly-notes/test.html#friday",
-    "title": "Your Title",
+    "objectID": "weekly-notes/week-of-2025-03-03.html#friday",
+    "href": "weekly-notes/week-of-2025-03-03.html#friday",
+    "title": "Week of 2025-03-03",
     "section": "Friday",
     "text": "Friday"
   },
   {
-    "objectID": "projects/meeting1.html",
-    "href": "projects/meeting1.html",
-    "title": "meeting1",
+    "objectID": "meeting-notes/meeting-1.html",
+    "href": "meeting-notes/meeting-1.html",
+    "title": "Meeting Title",
     "section": "",
-    "text": "Stuff from meeting 1\ndate, title, description, attendees, location"
+    "text": "Nullam dapibus cursus dolor sit amet consequat. Nulla facilisi. Curabitur vel nulla non magna lacinia tincidunt. Duis porttitor quam leo, et blandit velit efficitur ut. Etiam auctor tincidunt porttitor. Phasellus sed accumsan mi. Fusce ut erat dui. Suspendisse eu augue eget turpis condimentum finibus eu non lorem. Donec finibus eros eu ante condimentum, sed pharetra sapien sagittis. Phasellus non dolor ac ante mollis auctor nec et sapien. Pellentesque vulputate at nisi eu tincidunt. Vestibulum at dolor aliquam, hendrerit purus eu, eleifend massa. Morbi consectetur eros id tincidunt gravida. Fusce ut enim quis orci hendrerit lacinia sed vitae enim."
   },
   {
-    "objectID": "projects/project-1/idea-1.html",
-    "href": "projects/project-1/idea-1.html",
-    "title": "Notes about experiment design",
+    "objectID": "meeting-notes/meeting-1.html#meeting-goals",
+    "href": "meeting-notes/meeting-1.html#meeting-goals",
+    "title": "Meeting Title",
     "section": "",
-    "text": "Here’s some thoughts"
+    "text": "Nullam dapibus cursus dolor sit amet consequat. Nulla facilisi. Curabitur vel nulla non magna lacinia tincidunt. Duis porttitor quam leo, et blandit velit efficitur ut. Etiam auctor tincidunt porttitor. Phasellus sed accumsan mi. Fusce ut erat dui. Suspendisse eu augue eget turpis condimentum finibus eu non lorem. Donec finibus eros eu ante condimentum, sed pharetra sapien sagittis. Phasellus non dolor ac ante mollis auctor nec et sapien. Pellentesque vulputate at nisi eu tincidunt. Vestibulum at dolor aliquam, hendrerit purus eu, eleifend massa. Morbi consectetur eros id tincidunt gravida. Fusce ut enim quis orci hendrerit lacinia sed vitae enim."
   },
   {
-    "objectID": "projects/project-1/reading-1.html",
-    "href": "projects/project-1/reading-1.html",
-    "title": "Tidy Data",
+    "objectID": "meeting-notes/meeting-1.html#things-to-think-about",
+    "href": "meeting-notes/meeting-1.html#things-to-think-about",
+    "title": "Meeting Title",
+    "section": "Things to think about",
+    "text": "Things to think about\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+  },
+  {
+    "objectID": "meeting-notes/meeting-1.html#action-items",
+    "href": "meeting-notes/meeting-1.html#action-items",
+    "title": "Meeting Title",
+    "section": "Action items",
+    "text": "Action items\n\nTask 1\nTask 2"
+  },
+  {
+    "objectID": "projects/project-1/idea-note1.html",
+    "href": "projects/project-1/idea-note1.html",
+    "title": "project-1 idea note 1",
     "section": "",
-    "text": "Here’s some thoughts about the paper"
+    "text": "Vestibulum ultrices, tortor at mattis porta, odio nisi rutrum nulla, sit amet tincidunt eros quam facilisis tellus. Fusce eleifend lectus in elementum lacinia. Nam auctor nunc in massa ullamcorper, sit amet auctor ante accumsan. Nam ut varius metus. Curabitur eget tristique leo. Cras finibus euismod erat eget elementum. Integer vel placerat ex. Ut id eros quis lectus lacinia venenatis hendrerit vel ante."
+  },
+  {
+    "objectID": "projects/project-1/idea-note1.html#thoughts-about-project",
+    "href": "projects/project-1/idea-note1.html#thoughts-about-project",
+    "title": "project-1 idea note 1",
+    "section": "",
+    "text": "Vestibulum ultrices, tortor at mattis porta, odio nisi rutrum nulla, sit amet tincidunt eros quam facilisis tellus. Fusce eleifend lectus in elementum lacinia. Nam auctor nunc in massa ullamcorper, sit amet auctor ante accumsan. Nam ut varius metus. Curabitur eget tristique leo. Cras finibus euismod erat eget elementum. Integer vel placerat ex. Ut id eros quis lectus lacinia venenatis hendrerit vel ante."
   },
   {
     "objectID": "about.html",
@@ -229,5 +180,12 @@
     "title": "About",
     "section": "",
     "text": "This site is created as a Quarto Website. Some of the inspiration comes from the following sources:\n…\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "reading-notes/papername-2020.html",
+    "href": "reading-notes/papername-2020.html",
+    "title": "papername-2020",
+    "section": "",
+    "text": "Proin sodales neque erat, varius cursus diam tincidunt sit amet. Etiam scelerisque fringilla nisl eu venenatis. Donec sem ipsum, scelerisque ac venenatis quis, hendrerit vel mauris. Praesent semper erat sit amet purus condimentum, sit amet auctor mi feugiat. In hac habitasse platea dictumst. Nunc ac mauris in massa feugiat bibendum id in dui. Praesent accumsan urna at lacinia aliquet. Proin ultricies eu est quis pellentesque. In vel lorem at nisl rhoncus cursus eu quis mi. In eu rutrum ante, quis placerat justo. Etiam euismod nibh nibh, sed elementum nunc imperdiet in. Praesent gravida nunc vel odio lacinia, at tempus nisl placerat. Aenean id ipsum sed est sagittis hendrerit non in tortor."
   }
 ]

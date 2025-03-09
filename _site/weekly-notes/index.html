@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-date','listing-title','listing-keywords',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      searchColumns: ["listing-date","listing-title","listing-keywords"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -157,9 +157,20 @@ window.Quarto = {
 <span class="menu-text">Weekly notes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects/project-1/index.html"> 
-<span class="menu-text">Project 1</span></a>
+    <a class="nav-link" href="../reading-notes/index.html"> 
+<span class="menu-text">Reading notes</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
+        <li>
+    <a class="dropdown-item" href="../projects/project-1/index.html">
+ <span class="dropdown-text">project-1</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -238,26 +249,15 @@ keywords
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1741240800000" data-listing-file-modified-sort="1741352571809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="23" data-listing-title-sort="Week of 3 March 2025" data-listing-filename-sort="week-of-6mar2025.qmd">
+<tr data-index="0" data-listing-date-sort="1740981600000" data-listing-file-modified-sort="1741468976226" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6" data-listing-title-sort="Week of 2025-03-03" data-listing-filename-sort="week-of-2025-03-03.qmd">
 <td>
-<span class="listing-date">Mar 6, 2025</span>
+<span class="listing-date">Mar 3, 2025</span>
 </td>
 <td>
-<a href="../weekly-notes/week-of-6mar2025.html" class="title listing-title">Week of 3 March 2025</a>
+<a href="../weekly-notes/week-of-2025-03-03.html" class="title listing-title">Week of 2025-03-03</a>
 </td>
 <td>
-<span class="listing-keywords">Project 1, Project 2, Teaching</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-date-sort="NaN" data-listing-file-modified-sort="1741362480344" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6" data-listing-title-sort="Your Title" data-listing-filename-sort="week-of-2025-03-02.qmd">
-<td>
-<span class="listing-date">Invalid Date</span>
-</td>
-<td>
-<a href="../weekly-notes/week-of-2025-03-02.html" class="title listing-title">Your Title</a>
-</td>
-<td>
-<span class="listing-keywords">&nbsp;</span>
+<span class="listing-keywords">project-1, project-2</span>
 </td>
 </tr>
 </tbody>

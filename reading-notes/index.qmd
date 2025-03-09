@@ -1,0 +1,10 @@
+---
+title: "Reading notes"
+format: html
+listing:
+  contents:
+    - "*.qmd"
+  type: table
+  fields: [title, author, year, keywords]
+  filter-ui: [title, author, year, keywords]
+---

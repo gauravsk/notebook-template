@@ -1,9 +1,0 @@
----
-title: "Notes about experiment design"
-format: html
-date: 8 March 2025
-description: Thoughts about PSF experiment
-keywords: decision
----
-
-Here's some thoughts

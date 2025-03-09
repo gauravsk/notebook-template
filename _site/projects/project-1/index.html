@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Project 1 – My lab notebook</title>
+<title>project-1 – My lab notebook</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -136,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-title","listing-date"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -241,9 +241,20 @@ window.Quarto = {
 <span class="menu-text">Weekly notes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../projects/project-1/index.html" aria-current="page"> 
-<span class="menu-text">Project 1</span></a>
+    <a class="nav-link" href="../../reading-notes/index.html"> 
+<span class="menu-text">Reading notes</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
+        <li>
+    <a class="dropdown-item" href="../../projects/project-1/index.html">
+ <span class="dropdown-text">project-1</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -260,7 +271,8 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#concept-notes-and-other-ideas" id="toc-concept-notes-and-other-ideas" class="nav-link active" data-scroll-target="#concept-notes-and-other-ideas">Concept notes and other ideas</a></li>
+  <li><a href="#about-this-project" id="toc-about-this-project" class="nav-link active" data-scroll-target="#about-this-project">About this project</a></li>
+  <li><a href="#concept-notes-and-other-ideas" id="toc-concept-notes-and-other-ideas" class="nav-link" data-scroll-target="#concept-notes-and-other-ideas">Concept notes and other ideas</a></li>
   <li><a href="#reading-notes" id="toc-reading-notes" class="nav-link" data-scroll-target="#reading-notes">Reading notes</a></li>
   <li><a href="#meeting-notes" id="toc-meeting-notes" class="nav-link" data-scroll-target="#meeting-notes">Meeting notes</a></li>
   <li><a href="#weeks-in-which-i-worked-on-this-project" id="toc-weeks-in-which-i-worked-on-this-project" class="nav-link" data-scroll-target="#weeks-in-which-i-worked-on-this-project">Weeks in which I worked on this project</a></li>
@@ -272,7 +284,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Project 1</h1>
+<h1 class="title">project-1</h1>
 </div>
 
 
@@ -289,49 +301,31 @@ window.Quarto = {
 </header>
 
 
+<section id="about-this-project" class="level2">
+<h2 class="anchored" data-anchor-id="about-this-project">About this project</h2>
+<p>Vestibulum ultrices, tortor at mattis porta, odio nisi rutrum nulla, sit amet tincidunt eros quam facilisis tellus. Fusce eleifend lectus in elementum lacinia. Nam auctor nunc in massa ullamcorper, sit amet auctor ante accumsan. Nam ut varius metus. Curabitur eget tristique leo. Cras finibus euismod erat eget elementum. Integer vel placerat ex. Ut id eros quis lectus lacinia venenatis hendrerit vel ante.</p>
+</section>
 <section id="concept-notes-and-other-ideas" class="level2">
 <h2 class="anchored" data-anchor-id="concept-notes-and-other-ideas">Concept notes and other ideas</h2>
 <div id="listing-other-ideas" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-other-ideas-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-other-ideas'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-title-sort" data-direction="asc">
-          Title
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
 <table class="quarto-listing-table table">
 <thead>
 <tr>
 <th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+Date
 </th>
 <th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+Title
 </th>
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1741413600000" data-listing-file-modified-sort="1741307686016" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3" data-listing-title-sort="Notes about experiment design" data-listing-filename-sort="idea-1.qmd">
+<tr data-index="0" data-listing-date-sort="1741413600000" data-listing-file-modified-sort="1741467272193" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="project-1 idea note 1" data-listing-filename-sort="idea-note1.qmd">
 <td>
 <span class="listing-date">Mar 8, 2025</span>
 </td>
 <td>
-<a href="../../projects/project-1/idea-1.html" class="title listing-title">Notes about experiment design</a>
+<a href="../../projects/project-1/idea-note1.html" class="title listing-title">project-1 idea note 1</a>
 </td>
 </tr>
 </tbody>
@@ -378,15 +372,15 @@ year
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1741352011162" data-listing-reading-time-sort="1" data-listing-word-count-sort="6" data-listing-title-sort="Tidy Data" data-listing-filename-sort="reading-1.qmd">
+<tr data-index="0" data-listing-file-modified-sort="1741467379441" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="papername-2020" data-listing-filename-sort="papername-2020.qmd">
 <td>
-<span class="listing-year">2014</span>
+<span class="listing-year">2020</span>
 </td>
 <td>
-<a href="../../projects/project-1/reading-1.html" class="title listing-title">Tidy Data</a>
+<a href="../../reading-notes/papername-2020.html" class="title listing-title">papername-2020</a>
 </td>
 <td>
-<span class="listing-author">Hadley Wickham</span>
+<span class="listing-author">Paper Author</span>
 </td>
 </tr>
 </tbody>
@@ -436,26 +430,15 @@ attendees
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1741500000000" data-listing-file-modified-sort="1741351435500" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="26" data-listing-title-sort="Meeting to discuss to-dos" data-listing-filename-sort="meeting-030625-discuss-todos.qmd">
+<tr data-index="0" data-listing-date-sort="1741413600000" data-listing-file-modified-sort="1741467272192" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="21" data-listing-title-sort="Meeting Title" data-listing-filename-sort="meeting1.qmd">
 <td>
-<span class="listing-date">Mar 9, 2025</span>
+<span class="listing-date">Mar 8, 2025</span>
 </td>
 <td>
-<a href="../../projects/project-1/meeting-030625-discuss-todos.html" class="title listing-title">Meeting to discuss to-dos</a>
+<a href="../../projects/project-1/meeting-notes/meeting1.html" class="title listing-title">Meeting Title</a>
 </td>
 <td>
 <span class="listing-attendees">Person 1, Person 2</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-date-sort="NaN" data-listing-file-modified-sort="1741363370520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8" data-listing-title-sort="Your Title" data-listing-filename-sort="meeting-on-2025-03-02.qmd">
-<td>
-<span class="listing-date">Invalid Date</span>
-</td>
-<td>
-<a href="../../projects/project-1/meeting-notes/meeting-on-2025-03-02.html" class="title listing-title">Your Title</a>
-</td>
-<td>
-<span class="listing-attendees">&nbsp;</span>
 </td>
 </tr>
 </tbody>
@@ -480,12 +463,12 @@ keywords
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1741240800000" data-listing-file-modified-sort="1741352571809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="23" data-listing-title-sort="Week of 3 March 2025" data-listing-filename-sort="week-of-6mar2025.qmd">
+<tr data-index="0" data-listing-date-sort="1740981600000" data-listing-file-modified-sort="1741468976226" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6" data-listing-title-sort="Week of 2025-03-03" data-listing-filename-sort="week-of-2025-03-03.qmd">
 <td>
-<a href="../../weekly-notes/week-of-6mar2025.html" class="title listing-title">Week of 3 March 2025</a>
+<a href="../../weekly-notes/week-of-2025-03-03.html" class="title listing-title">Week of 2025-03-03</a>
 </td>
 <td>
-<span class="listing-keywords">Project 1, Project 2, Teaching</span>
+<span class="listing-keywords">project-1, project-2</span>
 </td>
 </tr>
 </tbody>

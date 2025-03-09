@@ -1,21 +1,24 @@
 ---
-title: "Project 1"
+title: 'project-1'
 format: html
 listing:
   - id: meeting-notes
-    contents: "meeting*.qmd"
+    contents: "meeting-notes/*.qmd"
     type: table
     fields: [date, title, attendees]
     filter-ui: [title, date, attendees]
   - id: reading-notes
-    contents: "reading*.qmd"
+    contents: "../../reading-notes/*.qmd"
     type: table
     fields: [year, title, author]
+    include:
+      keywords: "*project-1*"
   - id: other-ideas
     contents: "idea*.qmd"
     type: table
     fields: [date, title]
-    filter-ui: [title, date]
+    sort-ui: false
+    filter-ui: false
   - id: timeline
     sort-ui: false
     filter-ui: false
@@ -23,8 +26,12 @@ listing:
     type: table
     fields: [title, keywords]
     include:
-      keywords: "Project 1*"
+      keywords: "*project-1*"
 ---
+
+## About this project
+
+{{< lipsum 1 >}}
 
 
 ## Concept notes and other ideas
@@ -42,8 +49,6 @@ listing:
 
 :::{#meeting-notes}
 :::
-
-
 
 ## Weeks in which I worked on this project
 
