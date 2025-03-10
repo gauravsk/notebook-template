@@ -1,9 +1,0 @@
----
-title: 'papername-2020'
-author: Paper Author
-year: 2020
-keywords: project-1
----
-
-{{< lipsum 1 >}}
-

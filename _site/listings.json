@@ -1,8 +1,27 @@
 [
   {
-    "listing": "/reading-notes/index.html",
+    "listing": "/meetings.html",
     "items": [
-      "/reading-notes/papername-2020.html"
+      "/projects/project-1/meeting-notes/meeting1.html",
+      "/projects/sculptors/meeting-notes/meeting1.html",
+      "/meeting-notes/meeting-1.html"
+    ]
+  },
+  {
+    "listing": "/projects/sculptors/index.html",
+    "items": [
+      "/projects/sculptors/meeting-notes/meeting1.html",
+      "/reading-notes/wickham-2020.html",
+      "/reading-notes/wickham-2021.html",
+      "/projects/sculptors/idea-note1.html",
+      "/weekly-notes/week-of-2025-03-10.html"
+    ]
+  },
+  {
+    "listing": "/weekly-notes/index.html",
+    "items": [
+      "/weekly-notes/week-of-2025-03-03.html",
+      "/weekly-notes/week-of-2025-03-10.html"
     ]
   },
   {
@@ -10,14 +29,13 @@
     "items": [
       "/projects/project-1/meeting-notes/meeting1.html",
       "/reading-notes/papername-2020.html",
-      "/projects/project-1/idea-note1.html",
-      "/weekly-notes/week-of-2025-03-03.html"
+      "/projects/project-1/idea-note1.html"
     ]
   },
   {
-    "listing": "/weekly-notes/index.html",
+    "listing": "/reading-notes/index.html",
     "items": [
-      "/weekly-notes/week-of-2025-03-03.html"
+      "/reading-notes/papername-2020.html"
     ]
   }
 ]

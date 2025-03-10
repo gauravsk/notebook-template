@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-keywords',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-projects',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-keywords"],
+      searchColumns: ["listing-date","listing-title","listing-projects"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -160,6 +160,10 @@ window.Quarto = {
     <a class="nav-link" href="../reading-notes/index.html"> 
 <span class="menu-text">Reading notes</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../meetings.html"> 
+<span class="menu-text">Meeting notes</span></a>
+  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Projects</span>
@@ -168,6 +172,10 @@ window.Quarto = {
         <li>
     <a class="dropdown-item" href="../projects/project-1/index.html">
  <span class="dropdown-text">project-1</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../projects/sculptors/index.html">
+ <span class="dropdown-text">sculptors</span></a>
   </li>  
     </ul>
   </li>
@@ -244,12 +252,12 @@ window.Quarto = {
 <a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
 </th>
 <th>
-keywords
+projects
 </th>
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1740981600000" data-listing-file-modified-sort="1741468976226" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6" data-listing-title-sort="Week of 2025-03-03" data-listing-filename-sort="week-of-2025-03-03.qmd">
+<tr data-index="0" data-listing-date-sort="1740981600000" data-listing-file-modified-sort="1741528728491" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6" data-listing-title-sort="Week of 2025-03-03" data-listing-filename-sort="week-of-2025-03-03.qmd">
 <td>
 <span class="listing-date">Mar 3, 2025</span>
 </td>
@@ -257,7 +265,18 @@ keywords
 <a href="../weekly-notes/week-of-2025-03-03.html" class="title listing-title">Week of 2025-03-03</a>
 </td>
 <td>
-<span class="listing-keywords">project-1, project-2</span>
+<span class="listing-projects">project-1, project-2</span>
+</td>
+</tr>
+<tr data-index="1" data-listing-date-sort="1741582800000" data-listing-file-modified-sort="1741535425637" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6" data-listing-title-sort="Week of 2025-03-10" data-listing-filename-sort="week-of-2025-03-10.qmd">
+<td>
+<span class="listing-date">Mar 10, 2025</span>
+</td>
+<td>
+<a href="../weekly-notes/week-of-2025-03-10.html" class="title listing-title">Week of 2025-03-10</a>
+</td>
+<td>
+<span class="listing-projects">project-1, project-2, sculptors</span>
 </td>
 </tr>
 </tbody>

@@ -5,6 +5,6 @@ listing:
   contents:
     - "*.qmd"
   type: table
-  fields: [title, author, year, keywords]
-  filter-ui: [title, author, year, keywords]
+  fields: [title, author, year, projects, keywords]
+  filter-ui: [title, author, year, projects, keywords]
 ---

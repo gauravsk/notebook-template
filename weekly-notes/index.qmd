@@ -5,7 +5,7 @@ listing:
   contents:
     - "*.qmd"
   type: table
-  fields: [date,title, keywords]
-  filter-ui: [date, title, keywords]
+  fields: [date,title, projects]
+  filter-ui: [date, title, projects]
 ---
 

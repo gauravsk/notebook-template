@@ -1,5 +1,5 @@
 ---
-title: 'project-1'
+title: 'sculptors'
 format: html
 listing:
   - id: meeting-notes
@@ -12,7 +12,7 @@ listing:
     type: table
     fields: [year, title, author]
     include:
-      projects: "*project-1*"
+      projects: "*sculptors*"
   - id: other-ideas
     contents: "idea*.qmd"
     type: table
@@ -24,9 +24,9 @@ listing:
     filter-ui: false
     contents: "../../weekly-notes/*.qmd"
     type: table
-    fields: [title, keywords]
+    fields: [title, projects, keywords]
     include:
-      keywords: "*project-1*"
+      projects: "*sculptors*"
 ---
 
 ## About this project

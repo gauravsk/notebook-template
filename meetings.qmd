@@ -1,0 +1,10 @@
+---
+title: "Meeting notes"
+format: html
+listing:
+  contents:
+    - "**meeting**.qmd"
+  type: table
+  fields: [title, date, projects]
+  filter-ui: [title, date, projects]
+---

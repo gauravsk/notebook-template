@@ -8,16 +8,17 @@ website:
     foreground: "#F3F3EE"
     search: true
     left:
-      - about.qmd
       - weekly-notes/index.qmd
       - reading-notes/index.qmd
+      - meetings.qmd
       - text: "Projects"
         menu: 
         - projects/project-1/index.qmd
-    sidebar:
+        - projects/sculptors/index.qmd
+    sidebar:  
       contents: auto
-format:
-  html:
+format: 
+  html:  
     theme: cosmo
     css: styles.css
     toc: true

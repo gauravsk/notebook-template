@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-year','listing-keywords',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-year','listing-projects','listing-keywords',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-year","listing-keywords"],
+      searchColumns: ["listing-title","listing-author","listing-year","listing-projects","listing-keywords"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -160,6 +160,10 @@ window.Quarto = {
     <a class="nav-link active" href="../reading-notes/index.html" aria-current="page"> 
 <span class="menu-text">Reading notes</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../meetings.html"> 
+<span class="menu-text">Meeting notes</span></a>
+  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Projects</span>
@@ -168,6 +172,10 @@ window.Quarto = {
         <li>
     <a class="dropdown-item" href="../projects/project-1/index.html">
  <span class="dropdown-text">project-1</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../projects/sculptors/index.html">
+ <span class="dropdown-text">sculptors</span></a>
   </li>  
     </ul>
   </li>
@@ -244,12 +252,15 @@ window.Quarto = {
 year
 </th>
 <th>
+projects
+</th>
+<th>
 keywords
 </th>
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1741467379441" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="papername-2020" data-listing-filename-sort="papername-2020.qmd">
+<tr data-index="0" data-listing-file-modified-sort="1741528583137" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="papername-2020" data-listing-filename-sort="papername-2020.qmd">
 <td>
 <a href="../reading-notes/papername-2020.html" class="title listing-title">papername-2020</a>
 </td>
@@ -260,7 +271,10 @@ keywords
 <span class="listing-year">2020</span>
 </td>
 <td>
-<span class="listing-keywords">project-1</span>
+<span class="listing-projects">project-1</span>
+</td>
+<td>
+<span class="listing-keywords">&nbsp;</span>
 </td>
 </tr>
 </tbody>
