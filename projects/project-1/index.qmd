@@ -24,9 +24,9 @@ listing:
     filter-ui: false
     contents: "../../weekly-notes/*.qmd"
     type: table
-    fields: [title, keywords]
+    fields: [title, projects, keywords]
     include:
-      keywords: "*project-1*"
+      projects: "*project-1*"
 ---
 
 ## About this project

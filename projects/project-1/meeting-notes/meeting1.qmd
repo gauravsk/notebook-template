@@ -1,7 +1,8 @@
 ---
 title: "Meeting Title"
 attendees: Person 1, Person 2
-date: 2025-03-08
+date: 2025-03-11
+projects: project-1
 ---
 
 ## Meeting goals

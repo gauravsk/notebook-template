@@ -149,10 +149,6 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link active" href="../weekly-notes/index.html" aria-current="page"> 
 <span class="menu-text">Weekly notes</span></a>
   </li>  
@@ -172,10 +168,6 @@ window.Quarto = {
         <li>
     <a class="dropdown-item" href="../projects/project-1/index.html">
  <span class="dropdown-text">project-1</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../projects/sculptors/index.html">
- <span class="dropdown-text">sculptors</span></a>
   </li>  
     </ul>
   </li>
@@ -215,6 +207,7 @@ window.Quarto = {
 </header>
 
 
+<p>The function <code>quartoutils::weekly_notes()</code> makes it easy to create and edit a weekly notes file. Specifically, if a weekly notes file for the present week does not exist (i.e.&nbsp;a file with the name <code>week-of-YYYY-MM-DD.qmd</code>, where <code>yyyy-mm-dd</code> is the year-month-date of the <em>Monday</em> of the current week), <code>quartoutils::weekly_notes()</code> will make this file, using a pre-determined template. If such a file already exists, <code>quartoutils::weekly_notes()</code> simply opens this file for you to edit. The file also automatically gets added to a table of all such files, which is accessible from the “Weekly Notes” landing page of the website.</p>
 
 
 
@@ -266,17 +259,6 @@ projects
 </td>
 <td>
 <span class="listing-projects">project-1, project-2</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-date-sort="1741582800000" data-listing-file-modified-sort="1741535425637" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6" data-listing-title-sort="Week of 2025-03-10" data-listing-filename-sort="week-of-2025-03-10.qmd">
-<td>
-<span class="listing-date">Mar 10, 2025</span>
-</td>
-<td>
-<a href="../weekly-notes/week-of-2025-03-10.html" class="title listing-title">Week of 2025-03-10</a>
-</td>
-<td>
-<span class="listing-projects">project-1, project-2, sculptors</span>
 </td>
 </tr>
 </tbody>

@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -39,6 +73,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/videojs/video.min.js"></script>
+<link href="site_libs/quarto-contrib/videojs/video-js.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -89,10 +125,6 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./weekly-notes/index.html"> 
 <span class="menu-text">Weekly notes</span></a>
   </li>  
@@ -113,10 +145,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="./projects/project-1/index.html">
  <span class="dropdown-text">project-1</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="./projects/sculptors/index.html">
- <span class="dropdown-text">sculptors</span></a>
-  </li>  
     </ul>
   </li>
 </ul>
@@ -135,7 +163,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#usage" id="toc-usage" class="nav-link active" data-scroll-target="#usage">Usage</a></li>
+  <li><a href="#usage" id="toc-usage" class="nav-link active" data-scroll-target="#usage">Usage</a>
+  <ul class="collapse">
+  <li><a href="#using-the-lab-notebook-template-to-establish-a-new-project-on-gitlab" id="toc-using-the-lab-notebook-template-to-establish-a-new-project-on-gitlab" class="nav-link" data-scroll-target="#using-the-lab-notebook-template-to-establish-a-new-project-on-gitlab">Using the lab notebook template to establish a new project on GitLab</a></li>
+  <li><a href="#installing-the-quartoutils-package" id="toc-installing-the-quartoutils-package" class="nav-link" data-scroll-target="#installing-the-quartoutils-package">Installing the <code>quartoutils</code> package</a></li>
+  <li><a href="#verifying-that-the-notebook-builds-on-your-system" id="toc-verifying-that-the-notebook-builds-on-your-system" class="nav-link" data-scroll-target="#verifying-that-the-notebook-builds-on-your-system">Verifying that the notebook builds on your system</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -161,15 +194,83 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This lab notebook template was designed for the <a href="">Digital Lab Notebooks</a> crash course for my 2025 Reproducible Research course.</p>
-<section id="usage" class="level2">
-<h2 class="anchored" data-anchor-id="usage">Usage</h2>
-<p>Stuff and more stuff</p>
+<p>This lab notebook template came out of <a href="">Digital Lab Notebooks</a> crash course for my 2025 Reproducible Research course.</p>
+<section id="usage" class="level1">
+<h1>Usage</h1>
+<section id="using-the-lab-notebook-template-to-establish-a-new-project-on-gitlab" class="level2">
+<h2 class="anchored" data-anchor-id="using-the-lab-notebook-template-to-establish-a-new-project-on-gitlab">Using the lab notebook template to establish a new project on GitLab</h2>
+<p>The goal for this repository is to serve as a template for your very own digital lab notebook, with some features that are shown off on different pages of this site. There are (at least) two ways to use this template. If you are part of the <code>gklab</code> group on Gitlab, the easiest way is to use this project as the “template” to create your very own repository on GitLab. See the Video or Written steps below for detailed instructions</p>
+<p>If you are not part of the <code>gklab</code> group on Gitlab (or wish to host this on Github instead), you can directly create a copy of this notebook project onto your computer with the following command: <code>quarto use template https://gitlab.com/gklab/templates/lab-notebook-template-2/-/archive/main/lab-notebook-template-2-main.zip</code>. If you choose to go this route, you will have to connect the repository to Git etc.; I assume you know how to do this.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Video instructions for gitlab users
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="media/use-template.mp4"></video></div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Steps for gitlab users
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Once logged into GitLab, create a new repository by clicking on the blue “New Project” button at the top-right of the screen.</li>
+<li>Select “Create from template”.</li>
+<li>Click over to the “Group” tab to see our lab-specific templates.</li>
+<li>Click on the blue “Use template” button next to “Lab notebook template 2”.</li>
+<li>Provide a name for this notebook – something like <code>firstnames-notebook</code> is probably easiest.</li>
+<li>For now, you will be required to place this new repository under the <code>gklab/</code> workspace (but I will walk through how to move this into a differnt location if you so wish).</li>
+<li>You can decide whether to keep it as a public or private repo.</li>
+<li>Once created, this repository is <strong><em>ready to use</em></strong>! You can clone this repository locally by copying the SSH link and cloning into a new Rstuio Rproject.</li>
+<li>If you wish to move this repository out of the <code>gklab/</code> workspace, click on “Settings” on the bottom-left menu, and then navigate to General.</li>
+<li>Expand the “Advanced” settings, and scroll down to “Transfer project”.</li>
+<li>Under “Select new namespace”, you should see an option to transfer this into your gitlab user namespace.</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<section id="installing-the-quartoutils-package" class="level2">
+<h2 class="anchored" data-anchor-id="installing-the-quartoutils-package">Installing the <code>quartoutils</code> package</h2>
+<p>To facilitate use of this notebook template, I’ve written a small <code>R</code> package that contains utility functions, e.g.&nbsp;to create new weekly note documents. <strong><em>Note</em></strong> that as of March 2025, this package is very much under development – the functions have been tested in a relatively narrow range of use cases, and are not super well documented. This will change as the package matures. (In fact, you can help it grow by sharing issues or suggesting and/or implementing improvements!).</p>
+<p>You can install this package from <code>gitlab</code> using the following commands:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"pak"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>pak<span class="sc">::</span><span class="fu">pak</span>(<span class="st">"gitlab::gklab/quartoutils"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="verifying-that-the-notebook-builds-on-your-system" class="level2">
+<h2 class="anchored" data-anchor-id="verifying-that-the-notebook-builds-on-your-system">Verifying that the notebook builds on your system</h2>
+<p>Before moving on, let’s verify that the lab notebook can render properly on your local system. If you have not already done so, create a clone of the new git repo as a new Rstudio Rproject on your local computer. <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>Once you open the project in RStudio, render the notebook by clicking on the blue “Render” button at the top of the screen. You can also achieve this with the keyboard shortcut <code>Control+Shift+B</code>. You should see something that looks exactly like the <a href="">template website</a>!</p>
 
 
 </section>
+</section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>If you need a refresher – to do this, navigate to “File –&gt; New project” on the top-left of your RStudio screen. Then, select “Version Control”, then “Git”, and copy in the SSH link copied from your git repository.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -591,6 +692,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>videojs(video_shortcode_videojs_video1);</script>
 
 
 

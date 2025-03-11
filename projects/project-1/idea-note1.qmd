@@ -1,6 +1,7 @@
 ---
-title: project-1 idea note 1
+title: "Idea note 1"
 date: today
+projects: project-1
 ---
 
 ## Thoughts about project

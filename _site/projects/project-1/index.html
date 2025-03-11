@@ -162,9 +162,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-keywords',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-projects','listing-keywords',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -233,10 +233,6 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../weekly-notes/index.html"> 
 <span class="menu-text">Weekly notes</span></a>
   </li>  
@@ -256,10 +252,6 @@ window.Quarto = {
         <li>
     <a class="dropdown-item" href="../../projects/project-1/index.html">
  <span class="dropdown-text">project-1</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../projects/sculptors/index.html">
- <span class="dropdown-text">sculptors</span></a>
   </li>  
     </ul>
   </li>
@@ -311,7 +303,7 @@ window.Quarto = {
 
 <section id="about-this-project" class="level2">
 <h2 class="anchored" data-anchor-id="about-this-project">About this project</h2>
-<p>Etiam non efficitur urna, quis elementum nisi. Mauris posuere a augue vel gravida. Praesent luctus erat et ex iaculis interdum. Nulla vestibulum quam ac nunc consequat vulputate. Nullam iaculis lobortis sem sit amet fringilla. Aliquam semper, metus ut blandit semper, nulla velit fermentum sapien, fermentum ultrices dolor sapien sed leo. Vestibulum molestie faucibus magna, at feugiat nulla ullamcorper a. Aliquam erat volutpat. Praesent scelerisque magna a justo maximus, sit amet suscipit mauris tempor. Nulla nec dolor eget ipsum pellentesque lobortis a in ipsum. Morbi turpis turpis, fringilla a eleifend maximus, viverra nec neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 </section>
 <section id="concept-notes-and-other-ideas" class="level2">
 <h2 class="anchored" data-anchor-id="concept-notes-and-other-ideas">Concept notes and other ideas</h2>
@@ -328,12 +320,12 @@ Title
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1741500000000" data-listing-file-modified-sort="1741467272193" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="project-1 idea note 1" data-listing-filename-sort="idea-note1.qmd">
+<tr data-index="0" data-listing-date-sort="1741669200000" data-listing-file-modified-sort="1741700287988" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Idea note 1" data-listing-filename-sort="idea-note1.qmd">
 <td>
-<span class="listing-date">Mar 9, 2025</span>
+<span class="listing-date">Mar 11, 2025</span>
 </td>
 <td>
-<a href="../../projects/project-1/idea-note1.html" class="title listing-title">project-1 idea note 1</a>
+<a href="../../projects/project-1/idea-note1.html" class="title listing-title">Idea note 1</a>
 </td>
 </tr>
 </tbody>
@@ -380,15 +372,15 @@ year
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1741528583137" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="papername-2020" data-listing-filename-sort="papername-2020.qmd">
+<tr data-index="0" data-listing-file-modified-sort="1741573386255" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Demo paper title" data-listing-filename-sort="demopaper1.qmd">
 <td>
 <span class="listing-year">2020</span>
 </td>
 <td>
-<a href="../../reading-notes/papername-2020.html" class="title listing-title">papername-2020</a>
+<a href="../../reading-notes/demopaper1.html" class="title listing-title">Demo paper title</a>
 </td>
 <td>
-<span class="listing-author">Paper Author</span>
+<span class="listing-author">Demo Author</span>
 </td>
 </tr>
 </tbody>
@@ -438,9 +430,9 @@ attendees
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1741413600000" data-listing-file-modified-sort="1741467272192" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="21" data-listing-title-sort="Meeting Title" data-listing-filename-sort="meeting1.qmd">
+<tr data-index="0" data-listing-date-sort="1741669200000" data-listing-file-modified-sort="1741700287988" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="21" data-listing-title-sort="Meeting Title" data-listing-filename-sort="meeting1.qmd">
 <td>
-<span class="listing-date">Mar 8, 2025</span>
+<span class="listing-date">Mar 11, 2025</span>
 </td>
 <td>
 <a href="../../projects/project-1/meeting-notes/meeting1.html" class="title listing-title">Meeting Title</a>
@@ -466,11 +458,25 @@ No matching items
 Title
 </th>
 <th>
+projects
+</th>
+<th>
 keywords
 </th>
 </tr>
 </thead>
 <tbody class="list">
+<tr data-index="0" data-listing-date-sort="1740981600000" data-listing-file-modified-sort="1741528728491" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6" data-listing-title-sort="Week of 2025-03-03" data-listing-filename-sort="week-of-2025-03-03.qmd">
+<td>
+<a href="../../weekly-notes/week-of-2025-03-03.html" class="title listing-title">Week of 2025-03-03</a>
+</td>
+<td>
+<span class="listing-projects">project-1, project-2</span>
+</td>
+<td>
+<span class="listing-keywords">&nbsp;</span>
+</td>
+</tr>
 </tbody>
 </table>
 <div class="listing-no-matching d-none">

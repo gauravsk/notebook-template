@@ -14,7 +14,6 @@ website:
       - text: "Projects"
         menu: 
         - projects/project-1/index.qmd
-        - projects/sculptors/index.qmd
     sidebar:  
       contents: auto
 format: 
@@ -23,3 +22,4 @@ format:
     css: styles.css
     toc: true
     linkcolor: "#4A7862"
+    backgroundcolor: "#faf8f6"
