@@ -41,6 +41,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/videojs/video.min.js"></script>
+<link href="../site_libs/quarto-contrib/videojs/video-js.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -166,6 +168,10 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
         <li>
+    <a class="dropdown-item" href="../projects/how-to.html">
+ <span class="dropdown-text">How to create new projects</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="../projects/project-1/index.html">
  <span class="dropdown-text">project-1</span></a>
   </li>  
@@ -207,7 +213,25 @@ window.Quarto = {
 </header>
 
 
-<p>The function <code>quartoutils::weekly_notes()</code> makes it easy to create and edit a weekly notes file. Specifically, if a weekly notes file for the present week does not exist (i.e.&nbsp;a file with the name <code>week-of-YYYY-MM-DD.qmd</code>, where <code>yyyy-mm-dd</code> is the year-month-date of the <em>Monday</em> of the current week), <code>quartoutils::weekly_notes()</code> will make this file, using a pre-determined template. If such a file already exists, <code>quartoutils::weekly_notes()</code> simply opens this file for you to edit. The file also automatically gets added to a table of all such files, which is accessible from the “Weekly Notes” landing page of the website.</p>
+<!-- Remove the following text when using the template -->
+<p>The function <code>quartoutils::weekly_notes()</code> makes it easy to create and edit a weekly notes file. Specifically, if a weekly notes file for the present week does not exist<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, <code>quartoutils::weekly_notes()</code> will make this file, using a pre-determined template. If such a file already exists, <code>quartoutils::weekly_notes()</code> simply opens this file for you to edit. The file also automatically gets added to a table of all such files, which is accessible from the “Weekly Notes” landing page of the website. This functionality is demonstrated in the video below.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Video instructions to create/edit weekly notes
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="../media/weekly-notes-video.mp4"></video></div>
+</div>
+</div>
+</div>
+
 
 
 
@@ -266,7 +290,12 @@ projects
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>i.e.&nbsp;a file with the name <code>week-of-YYYY-MM-DD.qmd</code>, where <code>yyyy-mm-dd</code> is the year-month-date of the <em>Monday</em> of the current week<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -688,6 +717,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>videojs(video_shortcode_videojs_video1);</script>
 
 
 

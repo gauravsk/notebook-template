@@ -13,13 +13,14 @@ website:
       - meetings.qmd
       - text: "Projects"
         menu: 
+        - projects/how-to.qmd 
         - projects/project-1/index.qmd
     sidebar:  
       contents: auto
 format: 
   html:  
     theme: cosmo
-    css: styles.css
+    css: styles.css 
     toc: true
     linkcolor: "#4A7862"
     backgroundcolor: "#faf8f6"
